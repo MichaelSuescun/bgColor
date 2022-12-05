@@ -1,0 +1,1 @@
+![Animación del proyecto](bgColor-prueba.gif)
