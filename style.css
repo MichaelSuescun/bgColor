@@ -1,0 +1,44 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+
+  height: 100vh;
+
+  font-family: sans-serif;
+}
+
+.fieldColor {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+
+  font-size: 2rem;
+}
+
+.fields {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  /* font-size: 24px; */
+}
+
+input {
+  border-style: none;
+  border-radius: 3px;
+
+  padding-left: 0.208em;
+}
+
+input.inputHexadecimal {
+  width: 6.25em;
+  height: 1.25em;
+}
+
+input.inputRGB {
+  width: 2.5em;
+  height: 1.25em;
+}
